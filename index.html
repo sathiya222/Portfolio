@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sathiyanarayanan P | QA Engineer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{margin:0;padding:0;box-sizing:border-box}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#0f172a;
+color:#e2e8f0;
+line-height:1.6;
+}
+
+/* HERO */
+
+.hero{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(135deg,#1e3a8a,#0ea5e9);
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:clamp(32px,6vw,52px);
+}
+
+.hero p{
+font-size:clamp(18px,3vw,22px);
+margin-top:10px;
+}
+
+.btn{
+margin-top:20px;
+padding:14px 26px;
+border:none;
+border-radius:8px;
+background:#111827;
+color:white;
+font-size:16px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{background:#000}
+
+/* NAVBAR */
+
+nav{
+position:sticky;
+top:0;
+background:#020617;
+padding:15px;
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+nav a{
+color:#e2e8f0;
+text-decoration:none;
+font-weight:500;
+}
+
+/* SECTIONS */
+
+section{
+padding:70px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+.section-title{
+text-align:center;
+font-size:clamp(24px,4vw,32px);
+margin-bottom:30px;
+}
+
+/* ABOUT */
+
+.about{
+text-align:center;
+max-width:700px;
+margin:auto;
+font-size:18px;
+}
+
+/* SKILLS */
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:12px;
+justify-content:center;
+}
+
+.skill{
+background:#2563eb;
+padding:10px 18px;
+border-radius:8px;
+font-size:14px;
+}
+
+/* PROJECTS */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+}
+
+.project-card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+transition:0.4s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* CONTACT */
+
+.contact{
+text-align:center;
+font-size:18px;
+}
+
+.contact p{margin:8px}
+
+.contact a{
+color:#38bdf8;
+text-decoration:none;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+margin-top:40px;
+}
+
+/* SCROLL ANIMATION */
+
+.fade{
+opacity:0;
+transform:translateY(30px);
+transition:1s;
+}
+
+.fade.show{
+opacity:1;
+transform:translateY(0);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<div class="hero">
+
+<h1>Sathiyanarayanan P</h1>
+
+<p><span id="typing"></span></p>
+
+<a href="#contact"><button class="btn">Contact Me</button></a>
+
+<a href="resume.pdf"><button class="btn">Download Resume</button></a>
+
+</div>
+
+
+<!-- NAV -->
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="fade">
+
+<h2 class="section-title">About Me</h2>
+
+<div class="about">
+I am an entry-level QA Engineer with hands-on experience in Manual Testing and Selenium Automation using Python. I enjoy identifying bugs, improving software quality, and automating repetitive testing processes.
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="fade">
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills">
+
+<span class="skill">Manual Testing</span>
+<span class="skill">Selenium WebDriver</span>
+<span class="skill">Python</span>
+<span class="skill">API Testing</span>
+<span class="skill">Postman</span>
+<span class="skill">SQL</span>
+<span class="skill">JIRA</span>
+<span class="skill">Git</span>
+<span class="skill">GitHub</span>
+<span class="skill">Regression Testing</span>
+<span class="skill">Smoke Testing</span>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="fade">
+
+<h2 class="section-title">Projects</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Web Automation Testing</h3>
+<p>
+Automated login and form submission scenarios using Selenium WebDriver with Python and implemented PyTest for smoke testing.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Real-Time Translation App Testing</h3>
+<p>
+Performed GUI testing and validated API responses using Postman. Identified UI defects and documented test cases.
+</p>
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="fade">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>Email: sathiyanarayanan3177@gmail.com</p>
+
+<p>Phone: +91 6382011909</p>
+
+<p>
+LinkedIn: 
+<a href="https://www.linkedin.com/in/sathiyanarayanan-p-9216b12b6" target="_blank">
+https://www.linkedin.com/in/sathiyanarayanan-p-9216b12b6
+</a>
+</p>
+
+<p>
+GitHub: 
+<a href="https://github.com/sathiya222" target="_blank">
+https://github.com/sathiya222
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Sathiyanarayanan P</p>
+
+<p>QA Engineer | Selenium | Python | Automation Testing</p>
+
+</footer>
+
+
+<script>
+
+const text=[
+"QA Engineer",
+"Selenium Automation Tester",
+"Python Test Engineer",
+"Software Tester"
+];
+
+let count=0;
+let index=0;
+let currentText="";
+let letter="";
+
+(function type(){
+
+if(count===text.length){count=0}
+
+currentText=text[count];
+letter=currentText.slice(0,++index);
+
+document.getElementById("typing").textContent=letter;
+
+if(letter.length===currentText.length){
+count++;
+index=0;
+setTimeout(type,1500);
+}else{
+setTimeout(type,100);
+}
+
+})();
+
+
+const elements=document.querySelectorAll('.fade');
+
+function show(){
+
+const trigger=window.innerHeight*0.85;
+
+elements.forEach(el=>{
+
+const top=el.getBoundingClientRect().top;
+
+if(top<trigger){
+el.classList.add('show');
+}
+
+});
+
+}
+
+window.addEventListener('scroll',show);
+show();
+
+</script>
+
+</body>
+</html>
